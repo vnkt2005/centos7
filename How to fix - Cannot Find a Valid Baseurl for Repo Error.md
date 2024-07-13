@@ -8,3 +8,6 @@ try the following command and check whether any network issues is causing the pr
 ```sh
   $ping google.com
 ```
+
+# vi /etc/yum.repos.d/CentOS-Base.repo
+Look for the [base] section, try uncommenting the baseurl by removing the leading # on the baseurl line.
